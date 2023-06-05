@@ -105,13 +105,16 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .line::after {
-    content: '';
+    content: "";
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    margin-top: 24px;
+    display: block;
 }
 
 .menu:hover,
@@ -614,4 +617,13 @@ h1, h2, h3, h4, h5, h6, p{
 .btn-modal-close:focus{
     background-color: #404bbf;
     border: none;
+}
+
+.svg-modal-close-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-modal-close-icon:hover,
+.svg-modal-close-icon:focus{
+    fill: #ffffff
 }
