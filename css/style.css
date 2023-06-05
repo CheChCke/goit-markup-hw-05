@@ -87,30 +87,29 @@ h1, h2, h3, h4, h5, h6, p{
     margin-right: 0px;
 }
 
-.list .menu{
+.list .menu {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--color-menu-text)
+    color: var(--color-menu-text);
 }
 
-.menu{
+.line {
     position: relative;
     color: #404bbf;
-    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-menu::after{
-    content: '';
+.line::after {
+    content: '  ';
     position: absolute;
     left: 0;
     bottom: 1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
 }
 
 .menu:hover,
