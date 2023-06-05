@@ -635,8 +635,3 @@ h1, h2, h3, h4, h5, h6, p{
 .svg-modal-close-icon:focus{
     fill: #ffffff;
 }
-
-.btn-modal-close:hover
-.btn-modal-close:focus{
-    fill: #ffffff;
-}
