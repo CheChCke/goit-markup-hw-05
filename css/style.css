@@ -642,8 +642,8 @@ h1, h2, h3, h4, h5, h6, p{
     overflow: hidden;
 }
 
-.card-examples p:focus,
-.card-examples p:hover{
+.card-wrap-port:hover p,
+.card-wrap-port:focus p{
     transform: translateY(0%);
 }
 
