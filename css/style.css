@@ -553,6 +553,7 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .text-portfolio-card:focus,
@@ -641,8 +642,8 @@ h1, h2, h3, h4, h5, h6, p{
     overflow: hidden;
 }
 
-.card-wrap-port p:focus,
-.card-wrap-port p:hover{
+.card-examples p:focus,
+.card-examples p:hover{
     transform: translateY(0%);
 }
 
