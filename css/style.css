@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--bg-btn-color)
+    color: var(--bg-btn-color);
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
