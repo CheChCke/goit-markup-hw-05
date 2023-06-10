@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-menu-text);
+    padding: 27px 0;
 }
 
 .line {
@@ -114,7 +115,6 @@ h1, h2, h3, h4, h5, h6, p{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    margin-top: 24px;
 }
 
 .menu:hover,
@@ -563,7 +563,6 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 32px 16px;
     border: 1px solid var(--border-btn-color);
     border-top: none;
-    margin-bottom: 8px;
 }
 /* FILTER_NAVIGATION_END */
 /* MAIN_CARDS */
